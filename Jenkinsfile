@@ -16,6 +16,6 @@ pipeline{
                 sh "java -jar build/libs/BuildSystemBasics-1.0-SNAPSHOT.jar"
           }
         }
-        
+    }     
   }
   
