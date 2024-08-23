@@ -4,7 +4,7 @@ pipeline{
         stage('github validation'){
           steps{
                  git url: 'https://github.com/akshu20791/gradle-project'
-                 chmod +x gradlew
+                 sh "chmod +x gradlew"
           }
         }
       stage('gradle build'){
